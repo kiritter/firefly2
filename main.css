@@ -1,0 +1,92 @@
+@charset "utf-8";
+.cf {
+	zoom: 1;
+}
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+
+html {
+	overflow-y: scroll;
+}
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#main {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	position: relative;
+}
+#main a {
+	color: #ffffff;
+}
+
+header {
+	margin: 0 auto 10px auto;
+	padding: 0;
+}
+.title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 2em;
+	color: rgba(0, 255, 0, 0.5);
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.notice-content {
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: left;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1.0rem;
+	color: rgba(0, 255, 0, 0.5);
+}
+
+footer {
+	margin: 50px 0 20px 0;
+	padding: 0;
+}
+.notice-footer {
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1rem;
+}
+
+footer dl {
+	width: 420px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+footer dl dt {
+	width: 100px;
+	float: left;
+	clear: both;
+	margin: 0 0 0.5em 0;
+	padding: 0 0 0 0.5em;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.85em;
+	border-left: solid 5px #ff7f0e;
+}
+footer dl dd {
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.85em;
+}
