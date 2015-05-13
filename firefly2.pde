@@ -195,8 +195,8 @@ class Moving {
 		}
 		wx *= getBehindValue();
 		wy *= getBehindValue();
-		PVector forcePushPull = new PVector(wx, wy);
-		return forcePushPull;
+		PVector forceWave = new PVector(wx, wy);
+		return forceWave;
 	}
 
 	private void bounce() {
