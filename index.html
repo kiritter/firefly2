@@ -7,6 +7,19 @@
 <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 <link href="main.css" rel="stylesheet" type="text/css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B25L64G43V"></script>
+<script>
+  var host = window.location.hostname;
+  if (host === '127.0.0.1' || host === 'localhost') {
+    //Dev
+  }else{
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B25L64G43V');
+  }
+</script>
 </head>
 
 <body>
